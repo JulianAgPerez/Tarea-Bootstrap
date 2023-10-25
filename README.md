@@ -13,3 +13,15 @@ Este proyecto es un sitio web responsive hecho para tener seguimiento de tareas 
    
    ```bash
    json-server --watch db.json
+
+<hr style="border: 2px solid #e7e7e7;">
+<h2> Webs utilizadas </h2>
+<ul>
+  <li>&#8226; https://www.freepik.es/ </li>
+  <li>&#8226; https://icons.getbootstrap.com/ </li>
+  <li>&#8226; https://www.pexels.com/es-es/buscar/pexell/ </li>
+</ul>
+
+
+- <span style="color: cyan;">&#8226;</span> Elemento de lista
+
