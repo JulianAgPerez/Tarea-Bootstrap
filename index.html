@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superduper Metologias</title>
+    <!--CDN Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--CDN Bootstrap ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="/src/assets/styles/styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <!--ICON-->
+            <a class="navbar-brand" href="/">Desarrollo en Argentina</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tareas
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="estadosDropdown">
+                            <a class="dropdown-item" href="">Por hacer</a>
+                            <a class="dropdown-item" href="">En Producción</a>
+                            <a class="dropdown-item" href="">Por Testear</a>
+                            <a class="dropdown-item" href="">Completada</a>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="d-md-none">
+                    <ul class="navbar-nav me-auto-mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Ticket</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Perfil</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="d-none d-md-flex gap-2">
+                    <a class="nav-item nav-link p-1" href="">
+                        <!--Tecket-->
+                        <i class="bi bi-basket" style="font-size: 1.2rem;"></i>
+                    </a>
+                    <a class="nav-item nav-link p-1"href="">
+                        <!--Usuario-->
+                        <i class="bi bi-person" style="font-size: 1.2rem;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!--MOBILE-->
+            <img 
+              src="https://img.freepik.com/foto-gratis/nadie-estacion-trabajo-vacia-centro-llamadas-computadoras-e-instrumentos-audio-no-hay-personas-escritorios-oficinas-atencion-al-cliente-tecnologia-telecomunicaciones-ofreciendo-asistencia-linea-ayuda_482257-44179.jpg?w=900&t=st=1698194186~exp=1698194786~hmac=a34c1626e862ae86ac2a68029121a29ea7050e2e18d3465ad59815a9df052df0" 
+              class="d-block d-md-none w-100" 
+              alt="..."
+            >
+            <!--DESKTOP-->
+            <img 
+              src="https://img.freepik.com/foto-gratis/nadie-estacion-trabajo-vacia-centro-llamadas-computadoras-e-instrumentos-audio-no-hay-personas-escritorios-oficinas-atencion-al-cliente-tecnologia-telecomunicaciones-ofreciendo-asistencia-linea-ayuda_482257-44179.jpg?w=900&t=st=1698194186~exp=1698194786~hmac=a34c1626e862ae86ac2a68029121a29ea7050e2e18d3465ad59815a9df052df0" 
+              class="d-none d-md-block w-100" 
+              alt="..."
+            >
+            <div class="carousel-caption d-block text-start">
+              <h3 class="fs-1">Somos el mejor equipo de Aplicaciones Agiles</h3>
+              <p>Te Brindamos todo el ascesorameinto en Desarrollo de Software</p>
+              <p><a class="btn btn-lg btn-primary" href="#selector-estados">Explorar skills</a></p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <!--MOBILE-->
+            <img 
+              src="https://img.freepik.com/foto-gratis/pantalla-color-blanco-pon-tu-texto-ahi-grupo-jovenes-ropa-casual-que-trabajan-oficina-moderna_146671-16524.jpg?w=740&t=st=1698195844~exp=1698196444~hmac=430188c4e1ad380bbea4730130634ea1fb97e2d14c423a6048a88145fbd6b4bd" 
+              class="d-block d-md-none w-100" 
+              alt="..."
+            >
+            <!--DESKTOP-->
+            <img 
+              src="https://img.freepik.com/foto-gratis/pantalla-color-blanco-pon-tu-texto-ahi-grupo-jovenes-ropa-casual-que-trabajan-oficina-moderna_146671-16524.jpg?w=740&t=st=1698195844~exp=1698196444~hmac=430188c4e1ad380bbea4730130634ea1fb97e2d14c423a6048a88145fbd6b4bd" 
+              class="d-none d-md-block w-100" 
+ 
+              alt="..."
+            >
+
+            <div class="carousel-caption d-block">
+              <h3 class="fs-1">Los mejores expertos del país</h3>
+              <p>Trabajamos con las útimas tecnologías del Front y back cada día.</p>
+              <p><a class="btn btn-lg btn-primary" href="#selector-estados">Conocé más</a></p>
+            </div>
+          </div>
+
+            <div class="carousel-item">
+              <!--MOBILE-->
+              <img 
+                src="https://img.freepik.com/foto-gratis/fondo-abstracto-diseno-poli_1048-8478.jpg?w=740&t=st=1698197258~exp=1698197858~hmac=e5a40e32afd01332660451f866a35d5c4380abb6ac0406ce504ae8237309067f" 
+                class="d-block d-md-none w-100" 
+                alt="..."
+              >
+              <!--DESKTOP-->
+              <img 
+                src="https://img.freepik.com/foto-gratis/experiencia-programacion-persona-que-trabaja-codigos-computadora_23-2150010144.jpg?w=740&t=st=1698197364~exp=1698197964~hmac=06edd3844b62aabc66c4d6bd32c4cde4fc80fde1fe2b1e505066daed168d88bc" 
+                class="d-none d-md-block w-100" 
+
+                alt="..."
+              >
+              <div class="carousel-caption d-block text-end">
+                <h3 class="fs-1">No se que poneeeer</h3>
+                <p>Usamos las metologias ágiles más nuevas del momento</p>
+                <p><a class="btn btn-lg btn-primary" href="#selector-estados">Conocé más</a></p>
+              </div>
+
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <main>
+        <!--ESTADOS-->
+        <!--SELECTOR DE ESTADOS-->
+
+        <section class="container" id="selector-estados">
+          <p class="fs-2">Seleccionar estado</p>
+          <div class="row gap-4">
+            <div class="col d-flex justify-content-center p-0">
+              <a href="#Por hacer" class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
+                <img 
+                  src="/src/assets/images/icono espera.png" 
+                  alt=" Por hacer"
+                  style="width: 25px; height: 25px;"
+                >
+                <span class="fs-4 text-dark-emphasis">Por hacer</span>
+              </a>
+            </div>
+            <div class="col d-flex justify-content-center p-0">
+              <a href="#EnProducción" class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
+                <img 
+                  src="/src/assets/images/icono produccion2.png" 
+                  alt=" En Producción"
+                  style="width: 25px; height: 25px;"
+                >
+                <span class="fs-4 text-dark-emphasis"> En Producción</span>
+              </a>
+            </div>
+            <div class="col d-flex justify-content-center p-0">
+              <a href="#PorTestear" class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
+                <img 
+                  src="/src/assets/images/icono testear.png" 
+                  alt="Por Testear"
+                  style="width: 25px; height: 25px;"
+                >
+                <span class="fs-4 text-dark-emphasis">Por Testear</span>
+              </a>
+            </div>
+            <div class="col d-flex justify-content-center p-0">
+              <a href="#Completada" class="border border-1 border-black d-flex gap-1 align-items-center rounded p-1 text-decoration-none">
+                <img 
+                  src="src/assets/images/icono aprobado.png" 
+                  alt="Completada"
+                  style="width: 25px; height: 25px;"
+                >
+                <span class="fs-4 text-dark-emphasis">Completada</span>
+              </a>
+            </div>
+          </div>
+        </section>
+        
+        <!--ESTADOS Tareas-->
+        <section class="container-fluid" id="estados">
+          <section class="text-center mb-5" id="porHacer">
+            <h3 class="display-6">Por Hacer</h3>
+            <div 
+            id="contenedor-hacer"
+            class="row gap-4 gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+              <!--TAREA-->
+              <div class="col">
+                <div class="card h-100">
+                  <img 
+                    class="card-img-top"
+                    src="https://img.freepik.com/vector-gratis/ilustracion-isometrica-devops_52683-84175.jpg?w=740&t=st=1698200213~exp=1698200813~hmac=696ab091621daf19b011c58f8a32263238f15c1405773e08fbc722946eeae83"
+
+                    alt=""
+                  >
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <h5 class="fw-bolder">Elaborar blockchain</h5>
+                      <span>tiempo:18</span>
+                    </div>
+                  </div>
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a href="detalle.html" class="btn btn-outline-success mt-auto ver-tarea-btn" data-titulo="Título de la Tarea 1" data-descripcion="Descripción de la Tarea 1" data-estado="Por hacer" data-responsable="Usuario 1">
+                        Ver Tarea
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+ 
+          </section>
+
+
+          <section class="text-center mb-5" id="enProduccions">
+            <h3 class="display-6">En Producción</h3>
+            <div 
+            id="contenedor-produccion"
+            class="row gap-4 gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+              <!--PRODUCTO-->
+              <div class="col">
+                <div class="card h-100">
+                  <img 
+                    class="card-img-top"
+                    src="https://img.freepik.com/foto-gratis/imagen-primer-plano-programador-trabajando-su-escritorio-oficina_1098-18707.jpg?w=740&t=st=1698200620~exp=1698201220~hmac=9a29abeaa0a3d3f90097f365f5ea4c8de128f79628a3cfd25ebcaac9024904bd" 
+                    alt=""
+                  >
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <h5 class="fw-bolder">Desarrollo de pagina web Responsive</h5>
+                      <span>tiempo:19</span>
+                    </div>
+                  </div>
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a href="detalle.html" class="btn btn-outline-success mt-auto ver-tarea-btn" data-titulo="Título de la Tarea 1" data-descripcion="Descripción de la Tarea 1" data-estado="Por hacer" data-responsable="Usuario 1">
+                        Ver Tarea
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+          <section class="text-center mb-5" id="porTestear">
+            <h3 class="display-6">Por Testear</h3>
+            <div 
+            id="contenedor-testear"
+            class="row gap-4 gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+              <!--PRODUCTO-->
+              <div class="col">
+                <div class="card h-100">
+                  <img 
+                    class="card-img-top"
+                    src="https://img.freepik.com/vector-gratis/concepto-diseno-web-presentacion-contenido-paginas-web-composicion-diseno-sitio-web-desarrollo-color-idea-tecnologia-informatica-ilustracion-vectorial-plana_613284-1991.jpg?w=740&t=st=1698200764~exp=1698201364~hmac=12aeac56486e330c90f7bad31740470dde96792e9d73af84fa2ea8d2907b108" 
+                    alt=""
+                  >
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <h5 class="fw-bolder">Prueba de calculadora</h5>
+                      <span>tiempo:22</span>
+                    </div>
+                  </div>
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a href="detalle.html" class="btn btn-outline-success mt-auto ver-tarea-btn" data-titulo="Título de la Tarea 1" data-descripcion="Descripción de la Tarea 1" data-estado="Por hacer" data-responsable="Usuario 1">
+                       Ver Tarea
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="text-center mb-5" id="completada">
+            <h3 class="display-6">Completada</h3>
+            <div 
+            id="contenedor-completada"
+            class="row gap-4 gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+              <!--PRODUCTO-->
+              <div class="col">
+                <div class="card h-100">
+                  <img 
+                    class="card-img-top"
+                    src="https://img.freepik.com/vector-gratis/personas-analizando-tablas-crecimiento_23-2148866843.jpg?w=740&t=st=1698200865~exp=1698201465~hmac=19897a5c42ca1772bc2df2a06a6c8c28ca620d3b8e7960a184c4593dd2b75a1"
+                    alt=""
+                  >
+                  <div class="card-body p-4">
+                    <div class="text-center">
+                      <h5 class="fw-bolder">Planeacion y analisis de historias de usuarios</h5>
+                      <span>tiempo:34</span>
+                    </div>
+                  </div>
+                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                    <div class="text-center">
+                      <a href="detalle.html" class="btn btn-outline-success mt-auto ver-tarea-btn" data-titulo="Título de la Tarea 1" data-descripcion="Descripción de la Tarea 1" data-estado="Por hacer" data-responsable="Usuario 1">
+                        Ver Tarea
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        </section>
+
+      </main>
+
+    <div
+      class="container"
+    >
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">Colmena Tec</a>
+          <span class="mb-3 mb-md-0 text-body-secondary">&copy; 2023 FantasmaCorp</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href=""><i class="bi bi-facebook"></i></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href=""><i class="bi bi-instagram"></i></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href=""><i class="bi bi-twitter-x"></i></a></li>
+        </ul>
+      </footer>
+    </div>
+
+
+    <!--CDN Bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--JAVASCRIPT-->
+    <script type="module" src="/src/assets/pages/home.js"></script>
+</body>
+</html>

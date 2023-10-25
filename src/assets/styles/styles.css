@@ -1,0 +1,21 @@
+body{
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+/* Estilo CSS para las imágenes en el carrusel */
+#carouselExampleCaptions img {
+    width: 100%; /* Las imágenes ocuparán el 100% del ancho del contenedor */
+    height: auto; /* La altura se ajustará automáticamente para mantener la proporción */
+    max-height: 500px; /* Establece una altura máxima para evitar que las imágenes sean demasiado grandes */
+  }
+  
+  /* Contenedor del carrusel */
+  #carouselExampleCaptions {
+    width: 100%; /* Establece el ancho deseado para el carrusel */
+    margin: 0 auto; /* Centra el carrusel en el contenedor padre */
+  }
+  
+  #carouselExampleCaptions img {
+    max-width: 100%;
+  }
+  
