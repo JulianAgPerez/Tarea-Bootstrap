@@ -2,17 +2,58 @@
     "tasks":[
         {
             "id":1,
-            "titulo":"",
-            "descripcion":"",
-            "tiempo":13,
-            "imagen":"",
-            "responsable":"",
-            "estado":""
-        }
-    ],
-    "states":[
+            "title":"Analizar necesidades del cliente",
+            "description":"Aplicar método de desing thinking para entender y llegar a las necesidades reales del usuario",
+            "time":3,
+            "image":"https://img.freepik.com/foto-gratis/concepto-ideas-pantalla-portatil_53876-94888.jpg?w=740&t=st=1698258743~exp=1698259343~hmac=bdc551be5e46ad8ce8b68bdd31b767ca4d9b605088b85591f3be5a1712d6bfa7",
+            "responsable":"Pep Erana",
+            "status":"Completada"
+        },
         {
-
+            "id":2,
+            "title":"Bocetar diseños de páginas web",
+            "description":"Mediante el uso de Figma bocetar posibles diseños en base a lo solicitado por el cliente",
+            "time":5,
+            "image":"https://img.freepik.com/foto-gratis/disenadora-web-femenina-oficina-notebook_23-2149749857.jpg?w=740&t=st=1698258939~exp=1698259539~hmac=e4575c978b4eb3778f64aea8abe688b2eeb35a7b6ca0a74e5d944368b99796f1",
+            "responsable":"Pep Erana",
+            "status":"Por testear"
+        },
+        {
+            "id":2,
+            "title":"Recopilar informacion",
+            "description":"Encuestar a los clientes/directivos para conocer sus necesidades",
+            "time":3,
+            "image":"https://img.freepik.com/foto-gratis/ciudad-inteligente-futurista-tecnologia-red-global-5g_53876-98438.jpg?w=740&t=st=1698263593~exp=1698264193~hmac=bdc7d55909e71e6c8ea0d061888921e44b109e6499dab7af01f7eb1700113fde",
+            "responsable":"Pep Erana",
+            "status":"Por hacer"
+        },
+        {
+            "id":3,
+            "title":"Modelar bpmn",
+            "description":"Organizar las proximas tareas a realizar y duracion total del proyecto mediante bpmn",
+            "time":2,
+            "image":"https://img.freepik.com/foto-gratis/papeles-comerciales-naturaleza-muerta-varias-piezas-mecanismo_23-2149352655.jpg?w=740&t=st=1698259166~exp=1698259766~hmac=7e5566a787e26d225adb7d41e99d199cadc8054992857ffdf76508d0284ed093",
+            "responsable":"Sap Opepe",
+            "status":"En produccion"
+        },
+        {
+            "id":4,
+            "title":"Programar front end",
+            "description":"Montar página web en base a requerimientos del cliente",
+            "time":7,
+            "image":"https://img.freepik.com/foto-gratis/concepto-programacion-navegacion-tecnologia-diseno-web_53876-163260.jpg?w=740&t=st=1698259271~exp=1698259871~hmac=54606ab77555e510ec44859453238a7c56fea66b42c8077a4b597b5ef0ada1a8",
+            "responsable":"Bertoglio Gallo",
+            "status":"Por Hacer"
+        },
+        {
+            "id":5,
+            "title":"Programar back end",
+            "description":"Agregar funcionalidad a pagina web y sincronizar con base de datos",
+            "time":10,
+            "image":"https://img.freepik.com/foto-gratis/primer-plano-pantalla-computadora-desarrollador-software-escribiendo-lenguaje-programacion-su-agencia-inicio-mostrar-concepto-ingeniero-sistemas-que-escribe-codigo-fuente-desplazamiento-texto-script-funciones-base-datos_482257-33355.jpg?w=900&t=st=1698259364~exp=1698259964~hmac=dd62f7a4a3bd01e2f83b17581e194bbc2a2f9bd0e6b68ed89a9e3f20b2b09167",
+            "responsable":"Sap Opepe",
+            "status":"Por hacer"
         }
+
     ]
 }

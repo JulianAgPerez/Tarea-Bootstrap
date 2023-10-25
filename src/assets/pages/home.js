@@ -6,19 +6,20 @@ const contenedor_testear = document.getElementById("contenedor-testear")
 const contenedor_completada = document.getElementById("contenedor-completada")
 
 const fillTasks = async ()=>{
-    const tasks = await getAllTasks
+    const tasks = await getAllTasks();
 
-    tasks.forEach(task => {
-        const status = task.status
+    tasks.forEach((task) => {
+        const status = task.status;
+
 		let container;
-		if (status === "por hacer") {
-			container = contenedor_porhacer
-		} else if (status === "en produccion") {
-			container = contenedor_enproduccion
-		} else if (status === "por testear") {
-			container = contenedor_portestear
-		} else if (status === "terminada") {
-			container = contenedor_terminada
+		if (status === "Por hacer") {
+			container = contenedor_hacer
+		} else if (status === "En produccion") {
+			container = contenedor_produccion
+		} else if (status === "Por testear") {
+			container = contenedor_testear
+		} else if (status === "Completada") {
+			container = contenedor_completada
 		}
 
 		//Crear elemento en la categoria
@@ -26,19 +27,21 @@ const fillTasks = async ()=>{
 			<div class="col">
 				<div class="card h-100">
 					<img 
-					style="min-height:300px; max-height:300px;"
 					class="card-img-top" 
 					src="${task.image}" 
-					alt="">
+					alt=""
+                    >
 					<div class="card-body p-4">
 						<div class="text-center">
-							<h5 class="fw-bolder">${task.title}</h5>							
+							<h5 class="fw-bolder">${task.title}</h5>	
+                            <span>Tiempo: ${task.time}</span>						
 						</div>
 					</div>
 					<div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-						<div class="text-center d-flex gap-1">
-							<a href="/detalle.html?id=${task.id}" class="btn btn-outline-secondary mt-auto">Ver más</a>
-							<a href="" class="btn btn-outline-success mt-auto">Añadir al carrito</a>
+						<div class="text-center">
+							<a href="/detalle.html?id=${task.id}" class="btn btn-outline-success mt-auto ver-tarea-btn">
+                            Ver Tarea
+                            </a>
 						</div>
 					</div>
 				</div>
