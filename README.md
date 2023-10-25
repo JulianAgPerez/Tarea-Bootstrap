@@ -16,20 +16,6 @@ Este proyecto es un sitio web responsive hecho para tener seguimiento de tareas 
 
 <hr style="border: 2px solid #e7e7e7;">
 <h2> Webs utilizadas </h2>
-<style>
-  ul {
-    list-style: none; /* Esto elimina el estilo por defecto de los puntos */
-  }
-
-  ul li::before {
-    content: '\2022';
-    color: cyan;
-    display: inline-block;
-    width: 1em;
-    margin-right: 0.5em;
-  }
-</style>
-
 <ul>
   <li>&#8226; https://www.freepik.es/ </li>
   <li>&#8226; https://icons.getbootstrap.com/ </li>
